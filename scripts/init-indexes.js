@@ -1,4 +1,4 @@
-db = db.getSiblingDB('mongodb'); // Assegura que estamos no DB correto
+db = db.getSiblingDB('logs_db'); // Assegura que estamos no DB correto
 
 // 1. Otimiza filtro por nível de erro (Index Simples)
 db.logs.createIndex(
